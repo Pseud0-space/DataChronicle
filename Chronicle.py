@@ -8,7 +8,7 @@ import os
 
 
 cluster = MongoClient("MongoDB Connection String")
-db = cluster['DB Name']
+db = cluster['DB Name'] #Database to be used
 LoginCollection = db["Collection Name"] # Create a collection called 'login'
 
 class Store():
