@@ -1,7 +1,7 @@
 # DataChronicle
 A simple python script to Store data in encrypted form in MongoDB
 
-# Modules used
+# Python Modules used
 - cryptography
 - base64
 - pymongo
