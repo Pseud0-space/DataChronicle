@@ -9,7 +9,7 @@ import os
 
 cluster = MongoClient("MongoDB Connection String")
 db = cluster['DB Name']
-LoginCollection = db["Collection Name"]
+LoginCollection = db["Collection Name"] # Create a collection called 'login'
 
 class Store():
     def padding(self,data):
